@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KINH THÁNH (Bản Truyền Thống Hiệu Đính)</title>
+
+<style>
+body{
+    margin:0;
+    font-family:system-ui, -apple-system, Arial, sans-serif;
+    background:#0d0f12;
+    color:#e8eaed;
+}
+.container{
+    max-width:420px;
+    margin:auto;
+    padding:16px;
+}
+
+/* ===== TIÊU ĐỀ ===== */
+.main-title{
+    text-align:center;
+    font-size:22px;
+    font-weight:700;
+    margin:10px 0 20px;
+}
+
+/* ===== NÚT MỞ PHẦN ===== */
+.toggle-btn{
+    width:100%;
+    background:#1a1f25;
+    border:1px solid #2a2d32;
+    border-radius:14px;
+    padding:14px;
+    font-size:18px;
+    font-weight:600;
+    color:#9ad1ff;
+    cursor:pointer;
+    margin-bottom:12px;
+}
+.toggle-btn:hover{
+    background:#222831;
+}
+
+/* ===== PHẦN NỘI DUNG ===== */
+.section{
+    display:none;
+    margin-bottom:20px;
+}
+
+/* ===== SÁCH ===== */
+.book{
+    margin-bottom:24px;
+}
+.book-title{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    font-size:20px;
+    font-weight:600;
+    margin-bottom:12px;
+}
+.playlist-btn{
+    display:block;
+    width:100%;
+    background:#2b6de9;
+    color:#fff;
+    text-align:center;
+    padding:14px;
+    border-radius:12px;
+    font-size:16px;
+    font-weight:600;
+    text-decoration:none;
+    margin-bottom:16px;
+}
+.playlist-btn:hover{
+    background:#1f5ed0;
+}
+
+/* ===== CHƯƠNG ===== */
+.chapters{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:12px;
+}
+.chapter{
+    background:#111418;
+    border:1px solid #2a2d32;
+    border-radius:14px;
+    padding:16px;
+    text-align:center;
+    font-size:18px;
+    color:#9ad1ff;
+    text-decoration:none;
+}
+.chapter:hover{
+    background:#1a1f25;
+}
+
+footer{
+    text-align:center;
+    font-size:12px;
+    color:#8a8f98;
+    margin:30px 0 10px;
+}
+</style>
+
+<script>
+function toggle(id){
+    const el=document.getElementById(id);
+    el.style.display = el.style.display==="block" ? "none" : "block";
+}
+</script>
+
+</head>
+<body>
+
+<div class="container">
+
+<!-- ===== TIÊU ĐỀ ===== -->
+<div class="main-title">
+  <div style="font-size:24px; font-weight:700;">
+    KINH THÁNH
+  </div>
+  <div style="font-size:15px; font-weight:500; color:#9aa0a6;">
+    (Bản Truyền Thống Hiệu Đính)
+  </div>
+
+<!-- ===== CỰU ƯỚC ===== -->
+<button class="toggle-btn" onclick="toggle('old')">
+📜 CỰU ƯỚC
+</button>
+
+<div id="old" class="section">
+
+<div class="book">
+<div class="book-title">📘 SÁNG THẾ KÝ</div>
+<a class="playlist-btn" href="#" target="_blank">
+▶ MỞ PLAYLIST TOÀN BỘ SÁCH
+</a>
+<div class="chapters">
+<a class="chapter" href="#">Chương 01</a>
+<a class="chapter" href="#">Chương 02</a>
+<a class="chapter" href="#">Chương 03</a>
+<a class="chapter" href="#">Chương 04</a>
+</div>
+</div>
+
+<!-- Các sách Cựu Ước khác -->
+<div class="book-title" style="color:#8a8f98;">… các sách Cựu Ước khác</div>
+
+</div>
+
+<!-- ===== TÂN ƯỚC ===== -->
+<button class="toggle-btn" onclick="toggle('new')">
+📖 TÂN ƯỚC
+</button>
+
+<div id="new" class="section">
+
+<div class="book">
+<div class="book-title">📘 MA-THI-Ơ</div>
+<a class="playlist-btn"
+   href="https://www.youtube.com/playlist?list=PLArPHyle_62KXql_Dx5BjP_fnxeOipTED"
+   target="_blank">
+▶ MỞ PLAYLIST TOÀN BỘ SÁCH
+</a>
+
+<div class="chapters">
+<a class="chapter" href="https://www.youtube.com/watch?v=lNBoLtOrqdQ" target="_blank">Chương 01</a>
+<a class="chapter" href="https://www.youtube.com/watch?v=diOUklsIcVA" target="_blank">Chương 02</a>
+<a class="chapter" href="https://www.youtube.com/watch?v=9SOma0dchBY" target="_blank">Chương 03</a>
+<a class="chapter" href="https://www.youtube.com/watch?v=lkVVvwnRwmE" target="_blank">Chương 04</a>
+</div>
+</div>
+
+<!-- Các sách Tân Ước khác -->
+<div class="book-title" style="color:#8a8f98;">… các sách Tân Ước khác</div>
+
+</div>
+
+<!--footer>
+Kinh Thánh – Bản Truyền Thống Hiệu Đính
+</footer-->
+
+</div>
+</body>
+</html>
