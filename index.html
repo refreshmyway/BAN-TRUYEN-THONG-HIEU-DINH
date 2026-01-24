@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KINH THÁNH (Bản Truyền Thống Hiệu Đính)</title>
+
+<style>
+body{
+    margin:0;
+    font-family:system-ui, -apple-system, Arial, sans-serif;
+    background:#0d0f12;
+    color:#e8eaed;
+}
+.container{
+    max-width:420px;
+    margin:auto;
+    padding:16px;
+}
+
+/* ===== TIÊU ĐỀ ===== */
+.main-title{
+    text-align:center;
+    font-size:22px;
+    font-weight:700;
+    margin:10px 0 20px;
+}
+
+/* ===== NÚT MỞ PHẦN ===== */
+.toggle-btn{
+    width:100%;
+    background:#1a1f25;
+    border:1px solid #2a2d32;
+    border-radius:14px;
+    padding:14px;
+    font-size:18px;
+    font-weight:600;
+    color:#9ad1ff;
+    cursor:pointer;
+    margin-bottom:12px;
+}
+.toggle-btn:hover{
+    background:#222831;
+}
+
+/* ===== PHẦN NỘI DUNG ===== */
+.section{
+    display:none;
+    margin-bottom:20px;
+}
+
+/* ===== SÁCH ===== */
+.book{
+    margin-bottom:24px;
+}
+.book-title{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    font-size:20px;
+    font-weight:600;
+    margin-bottom:12px;
+}
+.playlist-btn{
+    display:block;
+    width:100%;
+    background:#2b6de9;
+    color:#fff;
+    text-align:center;
+    padding:14px;
+    border-radius:12px;
+    font-size:16px;
+    font-weight:600;
+    text-decoration:none;
+    margin-bottom:16px;
+}
+.playlist-btn:hover{
+    background:#1f5ed0;
+}
+
+/* ===== CHƯƠNG ===== */
+.chapters{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:12px;
+}
+.chapter{
+    background:#111418;
+    border:1px solid #2a2d32;
+    border-radius:14px;
+    padding:16px;
+    text-align:center;
+    font-size:18px;
+    color:#9ad1ff;
+    text-decoration:none;
+}
+.chapter:hover{
+    background:#1a1f25;
+}
+
+footer{
+    text-align:center;
+    font-size:12px;
+    color:#8a8f98;
+    margin:30px 0 10px;
+}
+</style>
+
+<script>
+function toggle(id){
+    const el=document.getElementById(id);
+    el.style.display = el.style.display==="block" ? "none" : "block";
+}
+</script>
+
+</head>
+<body>
+
+<div class="container">
+
+<!-- ===== TIÊU ĐỀ ===== -->
+<div class="main-title">
+  <div style="font-size:24px; font-weight:700;">
+    KINH THÁNH
+  </div>
+  <div style="font-size:15px; font-weight:500; color:#9aa0a6;">
+    (Bản Truyền Thống Hiệu Đính)
+  </div>
+
+<!-- ===== CỰU ƯỚC ===== -->
+<button class="toggle-btn" onclick="toggle('old')">
+📜 CỰU ƯỚC
+</button>
+
+<div id="old" class="section">
+
+<div class="book">
+<div class="book-title">📘 SÁNG THẾ KÝ</div>
+<a class="playlist-btn" href="https://www.youtube.com/playlist?list=PLArPHyle_62L6--2sKWJRiMMVgi3p9r8q" target="_blank">
+▶ MỞ PLAYLIST TOÀN BỘ SÁCH
+</a>
+<div class="chapters">
+<a class="chapter" href="https://www.youtube.com/watch?v=e1LzLvFiii8">Chương 01</a>
+<a class="chapter" href="https://www.youtube.com/watch?v=FIA23zl63zM">Chương 02</a>
+<a class="chapter" href="https://www.youtube.com/watch?v=VGqNftxyCHs">Chương 03</a>
+<a class="chapter" href="https://www.youtube.com/watch?v=nt1JAnqm-CM">Chương 04</a>
+<a class="chapter" href="https://www.youtube.com/watch?v=ABtLxlWrMAg">Chương 05</a>
+<a class="chapter" href="https://www.youtube.com/watch?v=On4-KfN5JME">Chương 06</a>
+<a class="chapter" href="https://www.youtube.com/watch?v=wiQZnVz0HyU">Chương 07</a>
+<a class="chapter" href="https://www.youtube.com/watch?v=vUdWHpmyiwc">Chương 08</a>
+<a class="chapter" href="https://www.youtube.com/watch?v=mxpTfNCmI9Q">Chương 09</a>
+<a class="chapter" href="https://www.youtube.com/watch?v=4KFqwuR9Zng">Chương 10</a>
+<a class="chapter" href="https://www.youtube.com/watch?v=TkIhA7G9I-Y">Chương 11</a>
+<a class="chapter" href="https://www.youtube.com/watch?v=ZKHaSdM5eCM">Chương 12</a>
+<a class="chapter" href="https://www.youtube.com/watch?v=uDqjzTpqrsE">Chương 13</a>
+<a class="chapter" href="https://www.youtube.com/watch?v=Mufco82dmgs">Chương 14</a>
+<a class="chapter" href="https://www.youtube.com/watch?v=IlmECCwJi9I">Chương 15</a>
+<a class="chapter" href="https://www.youtube.com/watch?v=9v35PKWvF8U">Chương 16</a>
+<a class="chapter" href="https://www.youtube.com/watch?v=z8EjajV78CM">Chương 17</a>
+<a class="chapter" href="https://www.youtube.com/watch?v=wSrwgaazXNE">Chương 18</a>
+<a class="chapter" href="https://www.youtube.com/watch?v=smn5VmZVZ7k">Chương 19</a>
+<a class="chapter" href="https://www.youtube.com/watch?v=zFm-41zW4r4">Chương 20</a>
+<a class="chapter" href="https://www.youtube.com/watch?v=KNc2HkYaHVU">Chương 21</a>
+<a class="chapter" href="https://www.youtube.com/watch?v=XuwcRks7bnU">Chương 22</a>
+<a class="chapter" href="https://www.youtube.com/watch?v=2BBNl5zyxvY">Chương 23</a>
+<a class="chapter" href="https://www.youtube.com/watch?v=7EY6JQglkis">Chương 24</a>
+<a class="chapter" href="https://www.youtube.com/watch?v=u3E0chEWnq0">Chương 25</a>
+<a class="chapter" href="https://www.youtube.com/watch?v=UaY4AsVnfSQ">Chương 26</a>
+<a class="chapter" href="https://www.youtube.com/watch?v=ta7qYbBrN30">Chương 27</a>
+<a class="chapter" href="https://www.youtube.com/watch?v=csjnH_ZDn40">Chương 28</a>
+<a class="chapter" href="https://www.youtube.com/watch?v=Vm4n79eJOwo">Chương 29</a>
+<a class="chapter" href="https://www.youtube.com/watch?v=QKmA3g8sF0g">Chương 30</a>
+<a class="chapter" href="https://www.youtube.com/watch?v=HYVCIqhqh8s">Chương 31</a>
+<a class="chapter" href="https://www.youtube.com/watch?v=MJ7EkEVYK5k">Chương 32</a>
+<a class="chapter" href="https://www.youtube.com/watch?v=HHUEEzquFwg">Chương 33</a>
+<a class="chapter" href="https://www.youtube.com/watch?v=Ib8nM0Rt8Xw">Chương 34</a>
+<a class="chapter" href="https://www.youtube.com/watch?v=hkLCX0T3Hds">Chương 35</a>
+<a class="chapter" href="https://www.youtube.com/watch?v=Fak4wFGaq9I">Chương 36</a>
+<a class="chapter" href="https://www.youtube.com/watch?v=Gnl8ix0EHKw">Chương 37</a>
+<a class="chapter" href="https://www.youtube.com/watch?v=e35HOOChRQo">Chương 38</a>
+<a class="chapter" href="https://www.youtube.com/watch?v=bakD1BmrQnM">Chương 39</a>
+<a class="chapter" href="https://www.youtube.com/watch?v=qS7XC69m4U4">Chương 40</a>
+<a class="chapter" href="https://www.youtube.com/watch?v=GaOtsNLGb48">Chương 41</a>
+<a class="chapter" href="https://www.youtube.com/watch?v=bkl1eDHjgdw">Chương 42</a>
+<a class="chapter" href="https://www.youtube.com/watch?v=BE9V9lbgx5M">Chương 43</a>
+<a class="chapter" href="https://www.youtube.com/watch?v=DDHpKFkzKBo">Chương 44</a>
+<a class="chapter" href="https://www.youtube.com/watch?v=sO38wTw0lqo">Chương 45</a>
+<a class="chapter" href="https://www.youtube.com/watch?v=51afCXlWbl4">Chương 46</a>
+<a class="chapter" href="https://www.youtube.com/watch?v=57e87FIhWxw">Chương 47</a>
+<a class="chapter" href="https://www.youtube.com/watch?v=VPq48_r4th4">Chương 48</a>
+<a class="chapter" href="https://www.youtube.com/watch?v=U61hTVTxLrY">Chương 49</a>
+<a class="chapter" href="https://www.youtube.com/watch?v=LdQvbUeKxwU">Chương 50</a>
+</div>
+</div>
+
+<!-- Các sách Cựu Ước khác -->
+<div class="book-title" style="color:#8a8f98;">… các sách Cựu Ước khác</div>
+
+<div class="book">
+<div class="book-title">📘 XUẤT Ê DÍP TÔ KÝ</div>
+<a class="playlist-btn" href="https://www.youtube.com/playlist?list=PLArPHyle_62JCL6qOYcVoQCD1rvPfqmJG" target="_blank">
+▶ MỞ PLAYLIST TOÀN BỘ SÁCH
+</a>
+<div class="chapters">
+<a class="chapter" href="https://youtu.be/z8QXjXJbF94">Chương 01</a>
+<a class="chapter" href="https://youtu.be/Rj0yISgIyns">Chương 02</a>
+<a class="chapter" href="https://youtu.be/V5lHpWkKpCQ">Chương 03</a>
+<a class="chapter" href="https://youtu.be/4dCJZlSGYik">Chương 04</a>
+<a class="chapter" href="https://youtu.be/UMZdlcpoyv4">Chương 05</a>
+<a class="chapter" href="https://youtu.be/kKQVlDepK1E">Chương 06</a>
+</div>
+</div>
+</div>
+
+<!-- ===== TÂN ƯỚC ===== -->
+<button class="toggle-btn" onclick="toggle('new')">
+📖 TÂN ƯỚC
+</button>
+
+<div id="new" class="section">
+
+<div class="book">
+<div class="book-title">📘 MA-THI-Ơ</div>
+<a class="playlist-btn"
+   href="https://www.youtube.com/playlist?list=PLArPHyle_62KXql_Dx5BjP_fnxeOipTED"
+   target="_blank">
+▶ MỞ PLAYLIST TOÀN BỘ SÁCH
+</a>
+
+<div class="chapters">
+<a class="chapter" href="https://youtu.be/lNBoLtOrqdQ?si=YmOqvagB1lnmxPmW" target="_blank">Chương 01</a>
+<a class="chapter" href="https://youtu.be/diOUklsIcVA" target="_blank">Chương 02</a>
+<a class="chapter" href="https://youtu.be/9SOma0dchBY" target="_blank">Chương 03</a>
+<a class="chapter" href="https://youtu.be/lkVVvwnRwmE" target="_blank">Chương 04</a>
+<a class="chapter" href="https://youtu.be/8M5cU8f07z8" target="_blank">Chương 05</a>
+<a class="chapter" href="https://youtu.be/Ueutt8PtQh0" target="_blank">Chương 06</a>
+<a class="chapter" href="https://youtu.be/S1xGzY_uh0k" target="_blank">Chương 07</a>
+<a class="chapter" href="https://youtu.be/7RYp58tsRIU" target="_blank">Chương 08</a>
+<a class="chapter" href="https://youtu.be/F9pje5ex_M8" target="_blank">Chương 09</a>
+<a class="chapter" href="https://youtu.be/jN9hI5XrCxo" target="_blank">Chương 10</a>
+<a class="chapter" href="https://youtu.be/vV4_93XWWCo" target="_blank">Chương 11</a>
+<a class="chapter" href="https://youtu.be/-K6WxkXzXG0" target="_blank">Chương 12</a>
+<a class="chapter" href="https://youtu.be/GvL4UuvtO3A" target="_blank">Chương 13</a>
+<a class="chapter" href="https://youtu.be/NSaEz1_KNGg" target="_blank">Chương 14</a>
+<a class="chapter" href="https://youtu.be/cyQ70a6j_No" target="_blank">Chương 15</a>
+<a class="chapter" href="https://youtu.be/OBsho5CAKRM" target="_blank">Chương 16</a>
+<a class="chapter" href="https://youtu.be/Dj2Cnli5LKw" target="_blank">Chương 17</a>
+<a class="chapter" href="https://youtu.be/Z7ma2sI-UZ0" target="_blank">Chương 18</a>
+<a class="chapter" href="https://youtu.be/i6XzEz__KSc" target="_blank">Chương 19</a>
+<a class="chapter" href="https://youtu.be/twCOZUBBMrI" target="_blank">Chương 20</a>
+<a class="chapter" href="https://youtu.be/npkniN4D11U" target="_blank">Chương 21</a>
+<a class="chapter" href="https://youtu.be/NfyYsypcfr8" target="_blank">Chương 22</a>
+<a class="chapter" href="https://youtu.be/zHMExP8JQf8" target="_blank">Chương 23</a>
+<a class="chapter" href="https://youtu.be/5yjx9ft8pzU" target="_blank">Chương 24</a>
+<a class="chapter" href="https://youtu.be/BdGTD-bQN9Y" target="_blank">Chương 25</a>
+<a class="chapter" href="https://youtu.be/F9ImCe05cmA" target="_blank">Chương 26</a>
+<a class="chapter" href="https://youtu.be/VjGMbsTc6EU" target="_blank">Chương 27</a>
+<a class="chapter" href="https://youtu.be/5-lg-2oNPAQ" target="_blank">Chương 28</a>
+</div>
+</div>
+
+<!-- Các sách Tân Ước khác -->
+<div class="book-title" style="color:#8a8f98;">… các sách Tân Ước khác</div>
+<div class="book">
+<div class="book-title">📘 MÁC</div>
+<a class="playlist-btn"
+   href="https://www.youtube.com/playlist?list=PLArPHyle_62KXql_Dx5BjP_fnxeOipTED"
+   target="_blank">
+▶ MỞ PLAYLIST TOÀN BỘ SÁCH
+</a>
+<div class="chapters">
+<a class="chapter" href="https://www.youtube.com/watch?v=BmNaWMx2v4A">01</a>
+<a class="chapter" href="https://www.youtube.com/watch?v=ynppStmpq6c">02</a>
+<a class="chapter" href="https://www.youtube.com/watch?v=-gjNrcIarPs">03</a>
+<a class="chapter" href="https://www.youtube.com/watch?v=D3j6uBUSEZ8">04</a>
+<a class="chapter" href="https://www.youtube.com/watch?v=QQ5NohZB7Co">05</a>
+<a class="chapter" href="https://www.youtube.com/watch?v=uQT6aKuU2-c">06</a>
+<a class="chapter" href="https://www.youtube.com/watch?v=V8Kcq6SvEHE">07</a>
+<a class="chapter" href="https://www.youtube.com/watch?v=L2xpRzPVNzU">08</a>
+<a class="chapter" href="https://www.youtube.com/watch?v=dRpM6lKqMak">09</a>
+<a class="chapter" href="https://www.youtube.com/watch?v=2tr9-91UCzI">10</a>
+<a class="chapter" href="https://www.youtube.com/watch?v=fwJ-S3yb7PA">13</a>
+<a class="chapter" href="https://www.youtube.com/watch?v=o_Nvpn3rlVY">14</a>
+</div>
+</div>
+
+<div class="book">
+<div class="book-title">📘 LU-CA</div>
+<a class="playlist-btn"
+   href="https://www.youtube.com/playlist?list=PLArPHyle_62KXql_Dx5BjP_fnxeOipTED"
+   target="_blank">
+▶ MỞ PLAYLIST TOÀN BỘ SÁCH
+</a>
+ <div class="chapters">
+    <a class="chapter" href="https://www.youtube.com/watch?v=4UdVfWxZ4yE">01</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=ojPAwT0aoj8">02</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=Z2z_EKJuqno">03</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=QDlgwNpE6rI">04</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=mdSN0TXTD70">05</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=SQTASfS9gwg">06</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=dLpWOvRncBA">07</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=l85_BZy3ym0">08</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=hX7uzMAmWGo">09</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=484z2chlKGM">10</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=NxWv_ZeBFSs">11</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=Vg38FtWUs-A">12</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=LNSNpn03eSE">13</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=wc6frS058Zw">14</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=q6sLzwEzXrU">15</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=GzrNkPzWMjw">16</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=Fqv-H4LF8xY">17</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=CA7Q_sVjhXs">18</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=k23vfRDAJBE">19</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=X51p6bU8ox0">20</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=EQyx83bv3pE">21</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=OQ3kThRiJ7w">22</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=XotU5PFpByc">23</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=ShDcGVDA1jc">24</a>
+</div>
+
+<div class="book">
+<div class="book-title">📘 GIĂNG</div>
+<a class="playlist-btn"
+   href="https://www.youtube.com/playlist?list=PLArPHyle_62KXql_Dx5BjP_fnxeOipTED"
+   target="_blank">
+▶ MỞ PLAYLIST TOÀN BỘ SÁCH
+</a>
+  <div class="chapters">
+    <a class="chapter" href="https://www.youtube.com/watch?v=A862MNXiTQA">01</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=9t6s1n--5aE">02</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=kJOCmeCNKd4">03</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=8gXv_jkmwQk">04</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=HMVijJlO0PI">05</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=lujzHXEGwOQ">06</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=7NgXhJc6x6U">07</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=zmxgZdXqZ5A">08</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=Sv2d1S8sE5M">09</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=YJYIYrZt5s8">10</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=3vX4VZy7T1Y">11</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=5uAl5kZV7Sc">12</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=GzYB63pTn0E">13</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=4vZ7w0b3W9M">14</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=2JkA7x9c1HY">15</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=RkJQnqj7sJ0">16</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=Z0nq4j5R3Fc">17</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=6dKJ7Z5Qqv8">18</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=9YvX6C4Kk0E">19</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=2K7fQYtM1wE">20</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=EJ9dY5LwFJQ">21</a>
+  </div>
+<div class="book">
+<div class="book-title">📘 CÔNG VỤ CÁC SỨ ĐỒ</div>
+<a class="playlist-btn"
+   href="https://www.youtube.com/playlist?list=PLArPHyle_62KXql_Dx5BjP_fnxeOipTED"
+   target="_blank">
+▶ MỞ PLAYLIST TOÀN BỘ SÁCH
+</a>
+  <div class="chapters">
+    <a class="chapter" href="https://www.youtube.com/watch?v=DDieBGZTbQg">01</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=5dtJHzJCkQ4">02</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=kAwTBUKFGrY">03</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=4OqRZHm_U1E">04</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=HX6t9wHdeLI">05</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=0f8Cd0Q5sTo">06</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=IRzRnyJoW_Q">07</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=L8C9IAxdQsA">08</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=3eaPdqju1aY">09</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=pMBO9oyie4A">10</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=S4KJhA-6F6E">11</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=9J1zqrQAI-A">12</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=GOc1aTgeWsU">13</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=s5zLx-zzvM8">14</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=G-hPzqfIVSY">15</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=vd73JWphRYY">16</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=j24KDS4N5DQ">17</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=RWdYxGmJ-1M">18</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=qjb5P_DYj78">19</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=-ANRbncsjIQ">20</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=B023tz3FBsY">21</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=w1nR3bNXgBQ">22</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=KG7ooCEADmY">23</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=hetSyokNSlI">24</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=NtEMmHSH7uE">25</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=OGOkQo_9nQY">26</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=Sg7nAk1yFvQ">27</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=YhDRr7Uic5s">28</a>
+  </div>
+<div class="book">
+<div class="book-title">📘 RÔ-MA</div>
+<a class="playlist-btn"
+   href="https://www.youtube.com/playlist?list=PLArPHyle_62KXql_Dx5BjP_fnxeOipTED"
+   target="_blank">
+▶ MỞ PLAYLIST TOÀN BỘ SÁCH
+</a>
+<div class="chapters"> 
+    <a class="chapter" href="https://www.youtube.com/watch?v=TS4nk4QH6vE">01</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=KO4uoVnCzqQ">02</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=Dbhm-jXeK5Q">03</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=jGSxHoUdz2Q">04</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=kqaP62ZiAZk">05</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=ngEuMIvCuFw">06</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=vrYpmdFV9o0">07</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=sXLjGnGCqbs">08</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=HhbkgvNkpJ4">09</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=Lq7H25gAurQ">10</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=HpasjzBdGvQ">11</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=vebtXtZ7qo4">12</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=fH_Kf2mPcV0">13</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=LwmvmUo92BQ">14</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=9MAYjcluqwA">15</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=Kmb8bOHHtVY">16</a>
+</div>
+
+<div class="book">
+<div class="book-title">📘 1CÔ-RINH-TÔ</div>
+<a class="playlist-btn"
+   href="https://www.youtube.com/playlist?list=PLArPHyle_62KXql_Dx5BjP_fnxeOipTED"
+   target="_blank">
+▶ MỞ PLAYLIST TOÀN BỘ SÁCH
+</a>
+<div class="chapters">
+    <a class="chapter" href="https://www.youtube.com/watch?v=rm6Qdymq_78">01</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=XroGyQCsmI4">02</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=i0U7d4nUwYA">03</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=G8uJR36SkgE">04</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=NzZIPEL0pvA">05</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=k4ADKjXkfXI">06</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=2HSS2ElvzC8">07</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=VWNYdCnA3dQ">08</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=R0ZbD7D4QuA">09</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=brd5MGXCQaw">10</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=sMlr0gsgmB0">11</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=dFOqRwE1EBc">12</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=BBEzLPF6S6k">13</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=lsNEs7rviF0">14</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=yPwOO__QtkA">15</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=ACOB2hLtpPA">16</a>
+</div>
+
+
+<div class="book">
+<div class="book-title">📘 2CÔ-RINH-TÔ</div>
+<a class="playlist-btn"
+   href="https://www.youtube.com/playlist?list=PLArPHyle_62KXql_Dx5BjP_fnxeOipTED"
+   target="_blank">
+▶ MỞ PLAYLIST TOÀN BỘ SÁCH
+</a>
+<div class="chapters">
+    <a class="chapter" href="https://www.youtube.com/watch?v=a4AsVh2X0II">01</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=w2jwvXYYwyE">02</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=npmWmXMcy0A">03</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=NL6Ow9n1NZ8">04</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=LGni8GUorWE">05</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=taoGGpKsVLg">06</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=Zriyh6zQF0M">07</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=9WimfS-XGGc">08</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=EEcVVL2jCAM">09</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=d7dPyNrbtHY">10</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=6NEzai1AO9k">11</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=0u0WM5OLzR8">12</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=w6vX1mr2G4I">13</a>
+</div>
+
+<div class="book">
+<div class="book-title">📘 GA-LA-TI</div>
+<a class="playlist-btn"
+   href="https://www.youtube.com/playlist?list=PLArPHyle_62KXql_Dx5BjP_fnxeOipTED"
+   target="_blank">
+▶ MỞ PLAYLIST TOÀN BỘ SÁCH
+</a>
+<div class="chapters">
+    <a class="chapter" href="https://www.youtube.com/watch?v=YODWAJNxK5A">02</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=qYyfVOqv07k">03</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=yVjrC3nyhVw">04</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=01FThRw9kW8">05</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=aQAt1zoQ1zo">06</a>
+</div>
+<div class="book">
+<div class="book-title">📘 Ê-PHÊ-SÔ</div>
+<a class="playlist-btn"
+   href="https://www.youtube.com/playlist?list=PLArPHyle_62KXql_Dx5BjP_fnxeOipTED"
+   target="_blank">
+▶ MỞ PLAYLIST TOÀN BỘ SÁCH
+</a>
+<div class="chapters">
+    <a class="chapter" href="https://www.youtube.com/watch?v=qC-oYNvk5qY">01</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=IOKb4prqm3s">02</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=R0e2_-c5GMo">03</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=KNyTtcnnWpU">04</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=5hWDEt45wG4">05</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=Pwp4qIzQQ-g">06</a>
+</div>
+
+<div class="book">
+<div class="book-title">📘 PHI -LÍP</div>
+<a class="playlist-btn"
+   href="https://www.youtube.com/playlist?list=PLArPHyle_62KXql_Dx5BjP_fnxeOipTED"
+   target="_blank">
+▶ MỞ PLAYLIST TOÀN BỘ SÁCH
+</a>
+<div class="chapters">
+    <a class="chapter" href="https://www.youtube.com/watch?v=WiQMkqI0CMs">01</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=b3gc0gLawpo">02</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=4Ir86dZx64Q">03</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=J_XT-DHBHwU">04</a>
+</div>
+
+<div class="book">
+<div class="book-title">📘 CÔ-LÔ-SE</div>
+<a class="playlist-btn"
+   href="https://www.youtube.com/playlist?list=PLArPHyle_62KXql_Dx5BjP_fnxeOipTED"
+   target="_blank">
+▶ MỞ PLAYLIST TOÀN BỘ SÁCH
+</a>
+<div class="chapters">
+    <a class="chapter" href="https://www.youtube.com/watch?v=r2JzDmkhK4E">01</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=KenZIsrHu34">02</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=aPenXRa8_50">03</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=K_ZC8OtsP1k">04</a>
+</div>
+
+<div class="book">
+<div class="book-title">📘 1TÊ-SA-LÔ-NI-CA</div>
+<a class="playlist-btn"
+   href="https://www.youtube.com/playlist?list=PLArPHyle_62KXql_Dx5BjP_fnxeOipTED"
+   target="_blank">
+▶ MỞ PLAYLIST TOÀN BỘ SÁCH
+</a>
+<div class="chapters">
+    <a class="chapter" href="https://www.youtube.com/watch?v=UjYTmuxLaF4">05</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=SZrNaZTksEE">04</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=dscZFPqFd_w">03</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=5GIt8QZBciY">02</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=yMU-2qJhWko">01</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=4yk-iWqgRVc">2Tê 01</a>
+</div>
+
+<div class="book">
+<div class="book-title">📘 2TÊ-SA-LÔ-NI-CA</div>
+<a class="playlist-btn"
+   href="https://www.youtube.com/playlist?list=PLArPHyle_62KXql_Dx5BjP_fnxeOipTED"
+   target="_blank">
+▶ MỞ PLAYLIST TOÀN BỘ SÁCH
+</a>
+<div class="chapters">
+    <a class="chapter" href="https://www.youtube.com/watch?v=cp-O6h9-W0M">01</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=PmvjfFb-tNY">02</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=0xOpp9tdJHY">03</a>
+</div>
+
+<div class="book">
+<div class="book-title">📘 1TI-MÔ-THÊ</div>
+<a class="playlist-btn"
+   href="https://www.youtube.com/playlist?list=PLArPHyle_62KXql_Dx5BjP_fnxeOipTED"
+   target="_blank">
+▶ MỞ PLAYLIST TOÀN BỘ SÁCH
+</a>
+<div class="chapters">
+    <a class="chapter" href="https://www.youtube.com/watch?v=rtJ5mHzYBEk">01</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=k9ZUIx3l0_c">02</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=fCBeP9a2Rd0">03</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=HW2RDsPnSqY">04</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=LHzA1tLL1xY">05</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=vl0AQTpDAv0">06</a>
+</div>
+
+<div class="book">
+<div class="book-title">📘 2TI-MÔ-THÊ</div>
+<a class="playlist-btn"
+   href="https://www.youtube.com/playlist?list=PLArPHyle_62KXql_Dx5BjP_fnxeOipTED"
+   target="_blank">
+▶ MỞ PLAYLIST TOÀN BỘ SÁCH
+</a>
+<div class="chapters">
+    <a class="chapter" href="https://www.youtube.com/watch?v=AJiQneHIXrg">01</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=TecXmHgYCJU">02</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=Ouyr4fI4e1Y">03</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=2eLLFdK7jf8">04</a>
+</div>
+
+<div class="book">
+<div class="book-title">📘 TÍT</div>
+<a class="playlist-btn"
+   href="https://www.youtube.com/playlist?list=PLArPHyle_62KXql_Dx5BjP_fnxeOipTED"
+   target="_blank">
+▶ MỞ PLAYLIST TOÀN BỘ SÁCH
+</a>
+<div class="chapters">
+    <a class="chapter" href="https://www.youtube.com/watch?v=w0InmGnYZqk">01</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=zWNTR0iGKSM">02</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=sEkBqoAhlXY">03</a>
+</div>
+
+<div class="book">
+<div class="book-title">📘 PHI-LÊ-MÔN</div>
+<a class="playlist-btn"
+   href="https://www.youtube.com/playlist?list=PLArPHyle_62KXql_Dx5BjP_fnxeOipTED"
+   target="_blank">
+▶ MỞ PLAYLIST TOÀN BỘ SÁCH
+</a>
+<div class="chapters">
+    <a class="chapter" href="https://www.youtube.com/watch?v=Akht1-oRA40">01</a>
+</div>
+
+<div class="book">
+<div class="book-title">📘 HÊ-BƠ-RƠ</div>
+<a class="playlist-btn"
+   href="https://www.youtube.com/playlist?list=PLArPHyle_62KXql_Dx5BjP_fnxeOipTED"
+   target="_blank">
+▶ MỞ PLAYLIST TOÀN BỘ SÁCH
+</a>
+<div class="chapters">
+    <a class="chapter" href="https://www.youtube.com/watch?v=KohZ7xiHDn8">01</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=5Kt0HxOxAXI">02</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=nRCA2-kSGr0">03</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=y0NngjLRwzk">04</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=ctUI7UlJCx4">05</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=LNgnJnjZQbA">06</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=IH30ClpbOJc">07</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=sGRmK6mp4K8">08</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=o1SEY0wLjQg">09</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=U2GCckg4Joc">10</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=qk7bPQRtO6Q">11</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=X0crjC0ZF84">12</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=xmbrlNT7Hf0">13</a>
+</div>
+
+<div class="book">
+<div class="book-title">📘 GIA-CƠ</div>
+<a class="playlist-btn"
+   href="https://www.youtube.com/playlist?list=PLArPHyle_62KXql_Dx5BjP_fnxeOipTED"
+   target="_blank">
+▶ MỞ PLAYLIST TOÀN BỘ SÁCH
+</a>
+<div class="chapters">
+    <a class="chapter" href="https://www.youtube.com/watch?v=IYgq8h6l4jU">01</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=5M6Y0dQr61k">02</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=PzYdMrz_6qY">03</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=6XKSSOPvZNg">04</a>
+    <a class="chapter" href="https://www.youtube.com/watch?v=HWLa4LS2ZyM">05</a>
+</div>
+
+<!--footer>
+Kinh Thánh – Bản Truyền Thống Hiệu Đính
+</footer-->
+
+</div>
+</body>
+</html>
